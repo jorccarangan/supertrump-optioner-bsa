@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinewood Derby</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .column {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }
+        .my-yellow-row{
+            background-color: #fac529;
+            height: 100%;
+        }
+        .my-blue-row{
+            background-color: #0056bc;
+            height: 100%;
+        }
+        .custom-font1{
+            color: white;
+            font-family: Candara, sans-serif;
+            font-size: 12pt;
+        }
+        .custom-font2{
+            color: #0056bc;
+            font-family: Candara, sans-serif;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+        .custom-font3{
+            color: #0056bc;
+            font-family: DDC Hardware, sans-serif;
+            font-size: 24pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 column" >
+                <img src="images/Store_Locator_149x43.jpg" alt="Store Locator" align="right">
+                <!--<h2>icon + STORE LOCATOR + link</h2> -->
+            </div>
+            <div class="col-lg-12 column">
+                <img src="images/PWD_Landing_Page_Header_D_1600x1253.jpg" alt="Pinewood Derby&#174 Dream It! Build It! Race It!">
+                <p class="custom-font3">Driving imagination since 1953</p>
+                <p class="custom-font2">Welcome to the exciting world of Pinewood Derby&#174 racing — a creative challenge that combines engineering, artistry, and a whole lot of fun. These mini race cars are carved from a simple block of wood, fitted with wheels, and customized to match your wildest ideas. No experience required!</p>
+            </div>
+        </div>
+    </div> 
+    <div class="container-fluid">
+        <div class="row justify-content-center my-yellow-row">
+            <div class="col-lg-12 column">
+                <img src="images/DreamIt_Header_D_1600x711.jpg" alt="Dream It! Step one, get creative! Let your imagination run wild. The sky's the limit!">
+            </div>  
+            <div class="col-lg-3 column col-md-6 column">
+                <img src="images/G01_Heavy_Metal_D_463x494.jpg" alt="Heavy Metal">
+                <h4>HEAVY METAL</h4>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
+            </div>
+            <div class="col-lg-3 column col-md-6 column">
+                <img src="images/G02_Unicorn_Dream_D_463x494.jpg" alt="Unicorn Dream">
+                <h4>UNICORN DREAM</h4>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
+            </div>
+            <div class="col-lg-3 column col-md-6 column">
+                <img src="images/G03_Muscle_Car_D_463x494.jpg" alt="Muscle Car">
+                <h4>MUSCLE CAR</h4>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
+            </div>
+             <div class="col-lg-3 column col-md-6 column">
+                <img src="images/G04_Ice_Cream_D_463x494.jpg" alt="Ice Cream Truck">
+                <h4>ICE CREAM TRUCK</h4>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 column">
+                <img src="images/Speed_Shop_D_1600x453.jpg" alt="Speed Shop">
+            </div>
+        </div>
+    </div>    
+    <div class="container-fluid">
+        <div class="row justify-content-center my-blue-row">
+            <div class="col-lg-12 column">
+                <img src="images/BuildIt_Header_D_1600x642.jpg" alt="Build It! Bring your creation to life while having fun and learning too!">
+                <div class="custom-font1">Get expert tips and tricks with our step-by-step how-to videos. They will help you build a Pinewood Derby&#174 car that stands out and speeds ahead. Watch now and start creating!
+                </div>
+            </div>  
+            <div class="col-lg-3 column col-md-6 column">
+                <img src="images/videobox_346x198.jpg" alt="...">
+            </div>    
+            <div class="col-lg-3 column col-md-6 column">
+                <img src="images/videobox_346x198.jpg" alt="...">
+            </div>
+            <div class="col-lg-3 column col-md-6 column">
+                <img src="images/videobox_346x198.jpg" alt="...">
+            </div>
+             <div class="col-lg-3 column col-md-6 column">
+                <img src="images/videobox_346x198.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center my-yellow-row">
+            <div class="col-lg-12 column">
+                <img src="images/FinishIt_Header_D_1600x642.jpg" alt="Finish It!">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row my-yellow-row">
+            <div class="col-lg-12 column">
+                <img src="images/Sound_Kit_D_1600x97.jpg" alt="Tools">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center my-yellow-row"> 
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F01_Muscle_Car_D_345px.jpg" alt="Muscle Car">
+                <h4>MUSCLE CAR</h4>
+                <button id="playStopSoundBtn1" class="btn btn-primary">Play Sound</button>
+                <audio id="sound1" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-muscle-car.mp3"></audio>
+            </div>
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F02_Unicorn_D_345px.jpg" alt="Unicorn">
+                <h4>UNICORN</h4>
+                <button id="playStopSoundBtn2" class="btn btn-primary">Play Sound</button>
+                <audio id="sound2" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-unicorn.mp3"></audio>
+            </div>
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F03_Tank_D_345px.jpg" alt="Tank">
+                <h4>TANK</h4>
+                <button id="playStopSoundBtn3" class="btn btn-primary">Play Sound</button>
+                <audio id="sound3" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-tank.mp3"></audio>
+            </div>
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F04_Race_Car_D_345px.jpg" alt="Race Car">
+                <h4>RACE CAR</h4>
+                <button id="playStopSoundBtn4" class="btn btn-primary">Play Sound</button>
+                <audio id="sound4" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-race-car.mp3"></audio>
+            </div>
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F05_Fire_Truck_D_345px.jpg" alt="Fire Truck">
+                <h4>FIRE TRUCK</h4>
+                <button id="playStopSoundBtn5" class="btn btn-primary">Play Sound</button>
+                <audio id="sound5" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-fire-truck.mp3"></audio>
+            </div>
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F06_Police_Car_D_345px.jpg" alt="Police Car">
+                <h4>POLICE CAR</h4>
+                <button id="playStopSoundBtn6" class="btn btn-primary">Play Sound</button>
+                <audio id="sound6" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-police-car.mp3"></audio>
+            </div>
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F07_Rank_Animals_D_345px.jpg" alt="Rank Animals">
+                <h4>RANK ANIMALS</h4>
+                <button id="playStopSoundBtn7" class="btn btn-primary">Play Sound</button>
+                <audio id="sound7" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-rank-animals.mp3"></audio>
+            </div>
+            <div class="col-lg-3 column col-md-6 col-sm-12 column">
+                <img src="images/F08_Ice_Cream_D_345px.jpg" alt="Ice Cream Truck">
+                <h4>ICE CREAM TRUCK</h4>
+                <button id="playStopSoundBtn8" class="btn btn-primary">Play Sound</button>
+                <audio id="sound8" src="https://mediafiles.scoutshop.org/Media/pwd-sounds/pwd-ice-cream-truck.mp3"></audio>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row my-blue-row">
+            <div class="col-lg-12 column">
+                <img src="images/RaceIt_Header_D_1600x567.jpg" alt="Time to finally show off and race your car">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row my-blue-row">
+            <div class="col-lg-12 column">
+                <a href="https://mediafiles.scoutshop.org/Media/PWD_2024_Resources.pdf?_gl=1*rtdiv9*_gcl_au*MTc4OTk4MTY3Mi4xNzMxMDA5MTQw*_ga*MTA5NTA4NDUyOS4xNzMxMDA5MTQw*_ga_P6M22C482X*MTczNjg4NzMxMi4zNC4xLjE3MzY4ODc2NTEuNTYuMC4w*_fplc*dk9IUkt5djZLMmJRSENJJTJGJTJCVVVQV0ZwUEhrdkY2" class="list-group-item list-group-item-action"><img src="images/Race_Rules_D_319x45.jpg" alt="Race Rules"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row my-blue-row">
+            <div class="col-lg-12 column">
+                <a href="https://www.youtube.com/watch?v=pvC7sWs6qNQ&t=71s"><img src="images/RaceIt_Video_Thumbnail_D_1080x600.jpg" alt="Pinewood Derby Race January 25, 2025"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 column">
+                <img src="images/Made_in_USA_D_953x89.jpg" alt="Made in USA">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 column">
+                <img src="images/Story_Tradition_Header_D_1600x659.jpg" alt="Story Tradition">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 column">
+               <p class="custom-font2">A storied tradition since 1953, the Pinewood Derby&#174 Official Car Kit is proudly Made in the USA and assembled in a facility that supports employment services for Americans with disabilities.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center"> 
+            <div class="col-lg-4 column col-md-12 column col-sm-12 column">
+                <a href="https://www.youtube.com/watch?v=yKXEXkOeZTo"><img src="images/S01_Thumb01_D_557x337.jpg" alt="Tree to Track"></a>
+                <h4>Tree to Track</h4>
+            </div>
+            <div class="col-lg-4 column col-md-12 column col-sm-12 column">
+                <a href="https://mediafiles.scoutshop.org/Media/PWD-Glow-in-the-Dark-Wheels-No-Subtitles-vid-CSBC.webm"><img src="images/S02_Thumb01_D_557x337.jpg" alt="Backlight"></a>
+                <h4>Backlight</h4>
+            </div>
+            <div class="col-lg-4 column col-md-12 column col-sm-12 column">
+                <a href="https://mediafiles.scoutshop.org/Media/PWD-Overview-No-Subtitles-vid-CSBC.webm"><img src="images/S03_Thumb01_D_557x337.jpg" alt="Showcase"></a>
+                <h4>Showcase</h4>
+            </div>
+        </div>
+    </div>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/B00JI715QO+Desktop+Carousel2+01+600px-450px_R01.png" class="d-block w-100" alt="Plan your design">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/B00JI715QO+Desktop+Carousel2+02+600px-450px_R01.png" class="d-block w-100" alt="Cut and Shape your block">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/B00JI715QO+Desktop+Carousel2+03+600px-450px_R01.png" class="d-block w-100" alt="Sand your car">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/B00JI715QO+Desktop+Carousel2+04+600px-450px_R01.png" class="d-block w-100" alt="Rev your car">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/B00JI715QO+Desktop+Carousel2+05+600px-450px_R01.png" class="d-block w-100" alt="Finish your car">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 column">
+             <img src="images/Customer Review_D_1545x59.jpg" alt="Customer Review">
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row justify-content-center" align="center">
+        <div class="col-lg-3 column col-md-2 col-sm-12 column">
+             <img src="images/Customer Review_01_D_459x484.jpg" alt="Customer Review 01">
+        </div>
+        <div class="col-lg-3 column col-md-2 col-sm-12 column">
+             <img src="images/Customer Review_02_D_459x484.jpg" alt="Customer Review 02">
+        </div>
+        <div class="col-lg-3 column col-md-2 col-sm-12 column">
+             <img src="images/Customer Review_03_D_459x484.jpg" alt="Customer Review 03">
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 column">
+            <h5>Terms | Privacy Policy | Accessibility</h5>
+            <p> &#169;2025 Scouting America&#174;| Scouting America Outfitters. Pinewood Derby&#174. All Rights Reserved.</p>
+        </div>
+    </div>
+</div>
+    
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- Script for Sound -->
+    <script>
+        function toggleSound(buttonId, soundId) {
+            var button = document.getElementById(buttonId);
+            var sound = document.getElementById(soundId);
+            if (sound.paused) {
+                sound.play();
+                button.textContent = 'Stop Sound';
+            } else {
+                sound.pause();
+                sound.currentTime = 0;
+                button.textContent = 'Play Sound';
+            }
+        }
+
+        document.getElementById('playStopSoundBtn1').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn1', 'sound1');
+        });
+        document.getElementById('playStopSoundBtn2').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn2', 'sound2');
+        });
+        document.getElementById('playStopSoundBtn3').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn3', 'sound3');
+        });
+        document.getElementById('playStopSoundBtn4').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn4', 'sound4');
+        });
+        document.getElementById('playStopSoundBtn5').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn5', 'sound5');
+        });
+        document.getElementById('playStopSoundBtn6').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn6', 'sound6');
+        });
+        document.getElementById('playStopSoundBtn7').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn7', 'sound7');
+        });
+        document.getElementById('playStopSoundBtn8').addEventListener('click', function() {
+            toggleSound('playStopSoundBtn8', 'sound8');
+        });
+    </script>
+</body>
+</html>
